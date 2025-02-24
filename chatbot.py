@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import StringIO
 from langchain.chains import RetrievalQA
-from langchain.vectorstores.faiss import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
