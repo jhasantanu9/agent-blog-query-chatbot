@@ -7,3 +7,4 @@ langchain-google-genai
 google-generativeai
 langchain
 langchain-community
+langchain-huggingface 
